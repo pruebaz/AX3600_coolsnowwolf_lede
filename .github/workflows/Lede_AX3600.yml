@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: AX3600 Almighty Edition
+name: Lede AX3600
 
 on:
   repository_dispatch:
@@ -31,7 +31,7 @@ env:
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
+  TZ: Europe/Madrid
 
 jobs:
   build:
